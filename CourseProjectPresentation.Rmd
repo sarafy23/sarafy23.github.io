@@ -1,0 +1,43 @@
+---
+title: 'Course Project: Shiny Application and Reproducible Pitch'
+date: "5/29/2021"
+output:
+  slidy_presentation: default
+  ioslides_presentation: default
+---
+
+
+## Executive Summary
+This assignment has two parts. 
+
+First, we will create a Shiny application and deploy it on Rstudio's servers. 
+
+Second, we will prepare a reproducible pitch presentation of the application.
+
+## Description
+
+- We will use the swiss dataset.
+- Fertility will be the dependent variable.
+- Agriculture will be the independent variable.
+- We will build a prediction model using linear regression.
+- We will use a slider input 
+
+## Source Code
+
+Here is the link to the code for the ui and server functions in one app file on Github:
+
+https://github.com/sarafy23/Dev-Data-Prods-Course-Project-/blob/master/app.R
+
+Here is the link to the presentation:
+
+
+## Plot
+```{r Interactive Map, echo=F, eval=T}
+library(plotly)
+
+plot_ly(data=swiss,x=~Agriculture,y=~Fertility,type = "scatter")
+
+```
+
+
+
