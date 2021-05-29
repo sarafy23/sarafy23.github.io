@@ -20,16 +20,17 @@ Second, we will prepare a reproducible pitch presentation of the application.
 - Fertility will be the dependent variable.
 - Agriculture will be the independent variable.
 - We will build a prediction model using linear regression.
-- We will use a slider input 
+- We will use a slider input for the Agriculture variable
 
 ## Source Code
 
-Here is the link to the code for the ui and server functions in one app file on Github:
+Here is the link to the code for the ui and server functions in one app file on Github call app.R :
 
-https://github.com/sarafy23/Dev-Data-Prods-Course-Project-/blob/master/app.R
+https://github.com/sarafy23/sarafy23.github.io
 
-Here is the link to the presentation:
+Here is the HTML link to this presentation:
 
+https://sarafy23.github.io/CourseProjectPresentation.html
 
 ## Plot
 ```{r Interactive Map, echo=F, eval=T}

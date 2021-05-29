@@ -2333,14 +2333,15 @@ var n,i=t("./lib/build-log"),a=t("./lib/epsilon"),o=t("./lib/intersecter"),s=t("
 <li>Fertility will be the dependent variable.</li>
 <li>Agriculture will be the independent variable.</li>
 <li>We will build a prediction model using linear regression.</li>
-<li>We will use a slider input</li>
+<li>We will use a slider input for the Agriculture variable</li>
 </ul>
 </div>
 <div id="source-code" class="slide section level2">
 <h1>Source Code</h1>
-<p>Here is the link to the code for the ui and server functions in one app file on Github:</p>
-<p><a href="https://github.com/sarafy23/Dev-Data-Prods-Course-Project-/blob/master/app.R" class="uri">https://github.com/sarafy23/Dev-Data-Prods-Course-Project-/blob/master/app.R</a></p>
-<p>Here is the link to the presentation:</p>
+<p>Here is the link to the code for the ui and server functions in one app file on Github call app.R :</p>
+<p><a href="https://github.com/sarafy23/sarafy23.github.io" class="uri">https://github.com/sarafy23/sarafy23.github.io</a></p>
+<p>Here is the HTML link to this presentation:</p>
+<p><a href="https://sarafy23.github.io/CourseProjectPresentation.html" class="uri">https://sarafy23.github.io/CourseProjectPresentation.html</a></p>
 </div>
 <div id="plot" class="slide section level2">
 <h1>Plot</h1>
@@ -2359,8 +2360,8 @@ var n,i=t("./lib/build-log"),a=t("./lib/epsilon"),o=t("./lib/intersecter"),s=t("
 <pre><code>## No scatter mode specifed:
 ##   Setting the mode to markers
 ##   Read more about this attribute -&gt; https://plotly.com/r/reference/#scatter-mode</code></pre>
-<div id="htmlwidget-6928d80b85cbf9589fa1" style="width:768px;height:576px;" class="plotly html-widget"></div>
-<script type="application/json" data-for="htmlwidget-6928d80b85cbf9589fa1">{"x":{"visdat":{"5c646a8f1d82":["function () ","plotlyVisDat"]},"cur_data":"5c646a8f1d82","attrs":{"5c646a8f1d82":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"xaxis":{"domain":[0,1],"automargin":true,"title":"Agriculture"},"yaxis":{"domain":[0,1],"automargin":true,"title":"Fertility"},"hovermode":"closest","showlegend":false},"source":"A","config":{"showSendToCloud":false},"data":[{"x":[17,45.1,39.7,36.5,43.5,35.3,70.2,67.8,53.3,45.2,64.5,62,67.5,60.7,69.3,72.6,34,19.4,15.2,73,59.8,55.1,50.9,54.1,71.2,58.1,63.5,60.8,26.8,49.5,85.9,84.9,89.7,78.2,64.9,75.9,84.6,63.1,38.4,7.7,16.7,17.6,37.6,18.7,1.2,46.6,27.7],"y":[80.2,83.1,92.5,85.8,76.9,76.1,83.8,92.4,82.4,82.9,87.1,64.1,66.9,68.9,61.7,68.3,71.7,55.7,54.3,65.1,65.5,65,56.6,57.4,72.5,74.2,72,60.5,58.3,65.4,75.5,69.3,77.3,70.5,79.4,65,92.2,79.3,70.4,65.7,72.7,64.4,77.6,67.6,35,44.7,42.8],"type":"scatter","mode":"markers","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"line":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-831a198b5373edd10fce" style="width:768px;height:576px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-831a198b5373edd10fce">{"x":{"visdat":{"429c4a954c2":["function () ","plotlyVisDat"]},"cur_data":"429c4a954c2","attrs":{"429c4a954c2":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"xaxis":{"domain":[0,1],"automargin":true,"title":"Agriculture"},"yaxis":{"domain":[0,1],"automargin":true,"title":"Fertility"},"hovermode":"closest","showlegend":false},"source":"A","config":{"showSendToCloud":false},"data":[{"x":[17,45.1,39.7,36.5,43.5,35.3,70.2,67.8,53.3,45.2,64.5,62,67.5,60.7,69.3,72.6,34,19.4,15.2,73,59.8,55.1,50.9,54.1,71.2,58.1,63.5,60.8,26.8,49.5,85.9,84.9,89.7,78.2,64.9,75.9,84.6,63.1,38.4,7.7,16.7,17.6,37.6,18.7,1.2,46.6,27.7],"y":[80.2,83.1,92.5,85.8,76.9,76.1,83.8,92.4,82.4,82.9,87.1,64.1,66.9,68.9,61.7,68.3,71.7,55.7,54.3,65.1,65.5,65,56.6,57.4,72.5,74.2,72,60.5,58.3,65.4,75.5,69.3,77.3,70.5,79.4,65,92.2,79.3,70.4,65.7,72.7,64.4,77.6,67.6,35,44.7,42.8],"type":"scatter","mode":"markers","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"line":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 </div>
 
   <!-- dynamically load mathjax for compatibility with self-contained -->
